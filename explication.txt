@@ -20,7 +20,8 @@ LIGNES DE COMMANDE
     git config --list : affiche la configuration complète (permet de verifier entre nom et email)
     appuyer sur <Entrée> pour faire défiler la liste et <Q> pour quitter
     git commit -m "message" : creer une version du projet en indiquant un message
-
+    git remote add <nom du remote> => crée un lien entre le local et le depot distant
+    git push <nom du remote> <nopm de la branche> => envoiela branche vers le depot distant
 ****
 VOCABULAIRE
 
