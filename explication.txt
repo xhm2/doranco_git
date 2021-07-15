@@ -14,8 +14,22 @@ LIGNES DE COMMANDE
 
     git --version : affiche la version installée de GIT
     git init : initialiser un dépôt GIT
+    git add <fichier> : ajouter des fichiersdans l'index/staging area
+    git config --global user.email "votre email" : s'identifier a git via l'email
+    git config --global user.name "votre nom PRENOM" : s'identifier a git via le nom et le prenom(complémentaire de l'email)
+    git config --list : affiche la configuration complète (permet de verifier entre nom et email)
+    appuyer sur <Entrée> pour faire défiler la liste et <Q> pour quitter
+    git commit -m "message" : creer une version du projet en indiquant un message
 
 ****
 VOCABULAIRE
 
     -repository : dépôt GIT
+    -staging area = index : l'endroit où se trouve les fichiers après avoir  executés git add => ces fichiers sont attente de commit
+    -commit = version du fichier
+    -commiter = créer une version de fichier
+
+    lettre à coté du nom de fichier
+    -U=> untracked git ne prend pas en compte ce fichier
+    -A=> Added => nouveau fichier ajouté à l'index
+    -M=> Modified fichier déja tracké par GIT et qui a été modifié depuis sa dernière version
